@@ -23,6 +23,11 @@ int main()
     printf("Enter the Choice:");
    scanf("%d", &c);
 
+   float A,B;
+    
+   A = a;
+
+   B = b;
 
    switch (c)
    {
@@ -39,7 +44,7 @@ int main()
     break;
 
     case 4:
-    printf("Result=%d",a/b);
+    printf("Result=%.2f",A/B);
     break;
 
    default:
